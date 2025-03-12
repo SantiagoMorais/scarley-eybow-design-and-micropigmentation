@@ -19,8 +19,8 @@ const eslintConfig = [
       prettier,
     },
     rules: {
-      "simple-import-sort/imports": "warn",
-      "simple-import-sort/exports": "warn",
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
       "prettier/prettier": ["warn", { endOfLine: "auto" }],
     },
   },
